@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>sjtu_drone</name>
+  <name>uav_sim</name>
   <version>0.0.0</version>
-  <description>The sjtu_drone package</description>
+  <description>The uav_sim package</description>
  
   <maintainer email="dpzou@sjtu.edu.cn">dpzou</maintainer>
 

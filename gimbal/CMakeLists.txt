@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(hku_m100_gazebo)
+project(gimbal)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -129,14 +129,14 @@ include_directories(
 # add_dependencies(hku_m100_gazebo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-add_executable(hku_m100_pcsim_gazebo_bridge src/hku_m100_pcsim_gazebo_bridge.cpp)
+add_executable(gazebo_bridge src/gazebo_bridge.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(hku_m100_gazebo_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(hku_m100_pcsim_gazebo_bridge
+target_link_libraries(gazebo_bridge
   ${catkin_LIBRARIES}
 )
 

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>hku_m100_gazebo</name>
+  <name>gimbal</name>
   <version>0.0.0</version>
   <description>The hku_m100_gazebo package</description>
 
